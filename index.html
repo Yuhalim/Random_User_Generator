@@ -10,7 +10,9 @@
 <body>
 <div id="app">
     <img :class="gender" v-bind:src= "picture" alt = "not available">
-    <h1>Hello {{firstname}} {{lastname}}</h1>
+    <h1>Hello {{title}} {{firstname}} {{lastname}}</h1>
+    <h3>{{age}}</h3>
+    <h3>{{country}}</h3>
     <h3>{{email}}</h3>
     <button :class="gender" v-on:click="getuser()">get random user</button>
 </div>
